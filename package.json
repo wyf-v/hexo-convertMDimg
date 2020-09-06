@@ -1,0 +1,17 @@
+{
+  "name": "hexo-my-img",
+  "version": "1.0.0",
+  "description": "测试插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"test\""
+  },
+  "keywords": [
+    "hexo",
+    "plugin",
+    "remote",
+    "writting"
+  ],
+  "author": "wyf",
+  "license": "MIT"
+}
