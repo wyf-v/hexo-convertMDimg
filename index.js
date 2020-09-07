@@ -10,7 +10,6 @@ function action(data) {
     var reverseSource = data.source.split("").reverse().join("");
     
     var fileName = reverseSource.substring(3, reverseSource.indexOf("/")).split("").reverse().join("");
-    console.log(fileName);
     var regExp = RegExp("!\\[(.*?)\\]\\(" + fileName +
         '/(.+?)\\)', "g");
     // data.content = data.content.replace(regExp, "{%asset_img $2 %}","g");
