@@ -22,7 +22,6 @@ function action(data) {
 
 var deal_image=function(data){
     if(! ignore(data)){
-        console.log("处理文件"+data.source);
         action(data)
     }
 }
